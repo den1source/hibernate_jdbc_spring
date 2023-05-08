@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<hibernate-configuration>
+  <session-factory>
+    <property name="hibernate.connection.driver_class">org.postgresql.Driver</property>
+    <property name="hibernate.connection.url">jdbc:postgresql://ep-shiny-recipe-198866.eu-central-1.aws.neon.tech/neondb</property>
+    <property name="hibernate.connection.username">denis21042</property>
+    <property name="hibernate.connection.password">JfWRQ5PG9iKn</property>
+    <property name="hibernate.show_sql">true</property>
+    <property name="hibernate.format_sql">true</property>
+    <property name="hibernate.current_session_context_class">thread</property>
+    <mapping class="com.example.proj_2.User"/>
+  </session-factory>
+</hibernate-configuration>
